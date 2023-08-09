@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}DriveBook{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="nom" placeholder="Nom de l'auto-école">
+        </div>
+        <div class="col-md-4">
+            <input type="text" class="form-control" id="localisation" placeholder="Où ?">
+        </div>
+
+        <div class="col-md-4">
+            <button class="btn btn-primary" type="submit">Valider</button>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
